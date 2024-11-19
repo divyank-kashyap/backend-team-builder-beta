@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const connectDB = async () => {
     try {
-        await mongoose.connect("mongodb+srv://admin:0000@cluster0.u8gug.mongodb.net/valorant-team-builder", {
+        await mongoose.connect("", {
             useNewUrlParser: true,
             useUnifiedTopology: true
         });
